@@ -1,41 +1,50 @@
 *{
     background-color:lemonchiffon;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
 }
 header{
-    border: 1px solid red;
-    height: 10vh;
+    height: 20vh;
     display: flex;
     flex-wrap: wrap;
 }
 
 header h1{
-    display: inline-block;
+    /* display: inline; */
     font-size: 60px;
     font-family: 'rockwell', 'Trebuchet MS';
+    color: slategray;
     margin-top: 15px;
+    
     /* flex-basis: 40%; */
     /* display: flex; */
     /* flex-wrap: wrap; */
 }
 
 header nav{
+    
     padding-top: 15px;
-    margin-right: 20px;
-    float: right;
+    margin-right: 2px;
+    /* float: right; */
     font-size: 20px;
 }
 
 header nav ul {
+    float: right;
     list-style-type: none;
 }
 header nav ul li{
     display: inline-block;
     margin-left: 25px;
+    text-align: right;
 }
-
+a{
+    text-decoration: none;
+    color: slategray;
+}
 #top-image {
-    border: 1px solid blue;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
     height: 20vh;
     background: url("../pattern_cover.jpeg") no-repeat;
     background-size: cover;
@@ -43,21 +52,62 @@ header nav ul li{
 }
 
 .section-title{
-    flex-basis: 20%;
+    flex-basis: 30%;
     border-right-color: black;
     border-right-width: 1px;
     border-right-style: solid;
 }
 .section-content{
-    flex-basis: 80%;
+    flex-basis: 70%;
     display: flex;
     flex-wrap: wrap;
 }
-.work-picture-small{
+#work-picture-big{
+    flex-basis: 100%;
+    border: 1px solid black;
+    height: 60vh;
+    background: url("../big-pic.jpeg") no-repeat;
+    background-size: cover;
+}
+#work-picture-small-1{
   flex-basis: 50%;
   border: 1px solid green;
   height: 30vh;
 }
+#work-picture-small-2{
+    flex-basis: 50%;
+    border: 1px solid black;
+    height: 30vh;
+  }
+  #work-picture-small-1{
+    flex-basis: 50%;
+    border: 1px solid black;
+    height: 30vh;
+    background: url("../small-pic1.jpg") no-repeat;
+    background-size: cover;
+  }
+  #work-picture-small-2{
+      flex-basis: 50%;
+      border: 1px solid black;
+      height: 30vh;
+      background: url("../small-pic2.jpeg") no-repeat;
+      background-size: cover;
+    }
+    #work-picture-small-3{
+        flex-basis: 50%;
+        border: 1px solid black;
+        height: 30vh;
+         background: url("../small-pic3.jpeg") no-repeat;
+      background-size: cover;
+      }
+      #work-picture-small-4{
+          flex-basis: 50%;
+          border: 1px solid green;
+          height: 30vh;
+          background: url("../small-pic4.jpeg") no-repeat;
+          background-size: cover;
+        }
+
 #aboutMe {
     border: 1px solid green;
     height: 30vh;
@@ -74,11 +124,7 @@ header nav ul li{
     display: flex;
     flex-wrap: wrap;
 }
-#work-picture-big{
-    flex-basis: 100%;
-    border: 1px solid violet;
-    height: 60vh;
-}
+
 
 figure img{
     flex-basis: 100%;
