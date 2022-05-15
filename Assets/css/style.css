@@ -11,21 +11,17 @@ header {
 }
 
 header h1 {
-    /* display: inline; */
+
     font-size: 500%;
     font-family: 'rockwell', 'Trebuchet MS';
-    margin-top: 15px;
+    margin: 15px 0 0 10px;
 
-    /* flex-basis: 40%; */
-    /* display: flex; */
-    /* flex-wrap: wrap; */
 }
 
 header nav {
 
     padding-top: 15px;
     margin-right: 2px;
-    /* float: right; */
     font-size: 20px;
 }
 
@@ -63,26 +59,23 @@ a {
 #top-image {
     border-top: 5px solid black;
     border-bottom: 5px solid black;
-    height: 20vh;
+    height: 25vh;
     background: url("../pattern_cover.jpeg") no-repeat;
     background-size: cover;
 
 }
 
-
+/* add background pictures for links to work*/
 
 #work-picture-big {
     flex-basis: 100%;
-    /* border: 1px solid black; */
     height: 60vh;
     background: url("../big-pic.jpeg") no-repeat;
     background-size: cover;
 }
 
-
 #work-picture-small-1 {
     flex-basis: 50%;
-    /* border: 1px solid black; */
     height: 30vh;
     background: url("../small-pic1.jpg") no-repeat;
     background-size: cover;
@@ -90,7 +83,6 @@ a {
 
 #work-picture-small-2 {
     flex-basis: 50%;
-    /* border: 1px solid black; */
     height: 30vh;
     background: url("../small-pic2.jpeg") no-repeat;
     background-size: cover;
@@ -98,7 +90,6 @@ a {
 
 #work-picture-small-3 {
     flex-basis: 50%;
-    /* border: 1px solid black; */
     height: 30vh;
     background: url("../small-pic3.jpeg") no-repeat;
     background-size: cover;
@@ -106,7 +97,6 @@ a {
 
 #work-picture-small-4 {
     flex-basis: 50%;
-    /* border: 1px solid black; */
     height: 30vh;
     background: url("../small-pic4.jpeg") no-repeat;
     background-size: cover;
