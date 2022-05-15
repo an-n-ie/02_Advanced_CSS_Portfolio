@@ -1,28 +1,28 @@
-*{
-    background-color:lemonchiffon;
+* {
+    background-color: lemonchiffon;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  
+    color:dimgray
 }
-header{
+
+header {
     height: 20vh;
     display: flex;
     flex-wrap: wrap;
 }
 
-header h1{
+header h1 {
     /* display: inline; */
-    font-size: 60px;
+    font-size: 500%;
     font-family: 'rockwell', 'Trebuchet MS';
-    color: slategray;
     margin-top: 15px;
-    
+
     /* flex-basis: 40%; */
     /* display: flex; */
     /* flex-wrap: wrap; */
 }
 
-header nav{
-    
+header nav {
+
     padding-top: 15px;
     margin-right: 2px;
     /* float: right; */
@@ -33,14 +33,32 @@ header nav ul {
     float: right;
     list-style-type: none;
 }
-header nav ul li{
+
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
     text-align: right;
 }
-a{
+
+a {
     text-decoration: none;
-    color: slategray;
+    color: dimgray;
+}
+
+.section-title {
+    flex-basis: 30%;
+    border-right-color: black;
+    border-right-width: 5px;
+    border-right-style: solid;
+    padding: 10px 0 0 10px;
+    font-size: 50px;
+}
+
+.section-content {
+    flex-basis: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
 }
 #top-image {
     border-top: 5px solid black;
@@ -51,81 +69,72 @@ a{
 
 }
 
-.section-title{
-    flex-basis: 30%;
-    border-right-color: black;
-    border-right-width: 1px;
-    border-right-style: solid;
-}
-.section-content{
-    flex-basis: 70%;
-    display: flex;
-    flex-wrap: wrap;
-}
-#work-picture-big{
+
+
+#work-picture-big {
     flex-basis: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 60vh;
     background: url("../big-pic.jpeg") no-repeat;
     background-size: cover;
 }
-#work-picture-small-1{
-  flex-basis: 50%;
-  border: 1px solid green;
-  height: 30vh;
-}
-#work-picture-small-2{
+
+
+#work-picture-small-1 {
     flex-basis: 50%;
-    border: 1px solid black;
-    height: 30vh;
-  }
-  #work-picture-small-1{
-    flex-basis: 50%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 30vh;
     background: url("../small-pic1.jpg") no-repeat;
     background-size: cover;
-  }
-  #work-picture-small-2{
-      flex-basis: 50%;
-      border: 1px solid black;
-      height: 30vh;
-      background: url("../small-pic2.jpeg") no-repeat;
-      background-size: cover;
-    }
-    #work-picture-small-3{
-        flex-basis: 50%;
-        border: 1px solid black;
-        height: 30vh;
-         background: url("../small-pic3.jpeg") no-repeat;
-      background-size: cover;
-      }
-      #work-picture-small-4{
-          flex-basis: 50%;
-          border: 1px solid green;
-          height: 30vh;
-          background: url("../small-pic4.jpeg") no-repeat;
-          background-size: cover;
-        }
+}
+
+#work-picture-small-2 {
+    flex-basis: 50%;
+    /* border: 1px solid black; */
+    height: 30vh;
+    background: url("../small-pic2.jpeg") no-repeat;
+    background-size: cover;
+}
+
+#work-picture-small-3 {
+    flex-basis: 50%;
+    /* border: 1px solid black; */
+    height: 30vh;
+    background: url("../small-pic3.jpeg") no-repeat;
+    background-size: cover;
+}
+
+#work-picture-small-4 {
+    flex-basis: 50%;
+    /* border: 1px solid black; */
+    height: 30vh;
+    background: url("../small-pic4.jpeg") no-repeat;
+    background-size: cover;
+}
 
 #aboutMe {
-    border: 1px solid green;
+    border-bottom: 2px solid black;
     height: 30vh;
 }
-#work{
-    border: 1px solid orange;
+
+#work {
+    border-bottom: 2px solid black;
     height: 150vh;
 }
-#contact{
-    border: 1px solid black;
+
+#contact {
+
     height: 20vh;
 }
-#aboutMe, #work, #contact{
+
+#aboutMe,
+#work,
+#contact {
     display: flex;
     flex-wrap: wrap;
 }
 
 
-figure img{
+figure img {
     flex-basis: 100%;
 }
